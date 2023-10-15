@@ -1,6 +1,9 @@
+import sys
 import pandas as pd
-
-file = "C:\\Users\\jmank\\Desktop\\VisStudioRepos\\COS-470-570-Exercise4\\quotes.tsv"
+if len(sys.argv) != 2:
+    print("Usage: python your_script.py <file_path>")
+    sys.exit(1)
+file = sys.argv[1]
 
 df = pd.read_csv(file, sep= '\t')
 
