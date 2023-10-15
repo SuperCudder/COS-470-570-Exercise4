@@ -11,11 +11,14 @@ Using a miniconda conda environment, this program made in python returns the num
 
 To deploy this program run command:
 
+Linux:
 ```bash
-bash run.sh quote.tsv
+bash run.sh quotes.tsv
 ```
-
-
+Windows:
+```bash
+run.bat quotes.tsv
+```
 
 ## Installation
 
